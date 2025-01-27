@@ -22,10 +22,10 @@ let projectSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
-  // version: {
-  //   type: String,
-  //   required: true,
-  // }
+  version: {
+    type: String,
+    required: true,
+  }
 });
 
 module.exports = mongoose.model("Project", projectSchema);

@@ -1,0 +1,50 @@
+body{
+  background-color: #000000;
+  color: #fff;
+}
+
+.inputBox{
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+
+.inputBox input{
+  flex: 1;
+  padding: 15px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.btnNormal{
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.projects .project{
+  margin-top: 10px;
+  cursor: pointer;
+  transition: .3s;
+  border: none;
+}
+
+.projects .project:hover{
+  background-color: #000000;
+  border: 1px solid #0f0e0e;
+}
+
+.css-b62m3t-container{
+  width: 100% !important;
+  margin-top: 10px;
+  border-radius: 30px;
+}

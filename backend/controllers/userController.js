@@ -24,11 +24,11 @@ function getStartupCode(language) {
     return 'Language not supported';
   }
 }
-
-
 exports.signUp = async (req, res) => {
   try {
+
     let { email, pwd, fullName } = req.body;
+
     let emailCon = await userModel.findOne({ email: email });
     if (emailCon) {
       return res.status(400).json({
